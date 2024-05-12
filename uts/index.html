@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="./style.css" />
+		<!-- choose one -->
+		<script src="https://unpkg.com/feather-icons"></script>
+		<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<title>UTS P WEB</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<a
+				href="#"
+				class="nav-logo"
+				>A<span>R</span></a
+			>
+			<div class="navbar-nav">
+				<a href="#">Home</a>
+				<a href="#about">Tentang saya</a>
+				<a href="#project">Projek</a>
+				<a href="#contact">Kontak</a>
+			</div>
+			<div class="navbar-extra">
+				<a
+					href="#"
+					id="hamburger-menu"
+					><i data-feather="menu"></i
+				></a>
+			</div>
+		</nav>
+		<!-- Main content -->
+		<section
+			class="hero"
+			id="home">
+			<main class="content">
+				<h1>Hallo Saya, <span>Ananda</span></h1>
+				<p>Merupakan mahasiswa informatika</p>
+				<h2>Universitas Ahmad Dahlan</h2>
+			</main>
+		</section>
+		<!-- About -->
+		<section
+			id="about"
+			class="about">
+			<h2>Tentang <span>saya</span></h2>
+			<div class="row">
+				<div class="about-img">
+					<img
+						src="./assets/profile.jpg"
+						alt="tentang-saya" />
+				</div>
+				<div class="content">
+					<p>
+						Hallo perkenalkan, nama saya <span>Ananda Rizki Nurhidayat.</span> saya seorang
+						mahasiswa informatika Universitas Ahmad Dahlan yang tertarik pada bidang fullstack
+						developer.
+					</p>
+					<p>Di luar kampus, saya senang melakukan hobi bulutangkis</p>
+					<p>Selain itu, saya suka menkoleksi mini scale</p>
+					<div class="social-media">
+						<a href="https://m.facebook.com/profile.php?id=100033874130295&name=xhp_nt_"
+							><i data-feather="facebook"></i
+						></a>
+						<a href="https://www.instagram.com/ananda_rzn/"><i data-feather="instagram"></i></a>
+						<a href="https://twitter.com/?lang=en-id"><i data-feather="twitter"></i></a>
+						<a href="https://github.com/ArZki"><i data-feather="github"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Project -->
+		<section
+			id="project"
+			class="project">
+			<h2>Projek <span>saya</span></h2>
+			<p>Contoh projek yang saya buat hingga saat ini</p>
+			<div class="row">
+				<div class="project-card">
+					<img
+						src="./assets/project_1.png"
+						alt="project1"
+						class="project-card-img" />
+					<h3 class="project-card-title">Hotel Management</h3>
+					<p class="project-card-desc">Project membuat management hotel dengan C++</p>
+				</div>
+				<div class="project-card">
+					<img
+						src="./assets/project_2.png"
+						alt="project1"
+						class="project-card-img" />
+					<h3 class="project-card-title">Web jual beli akun</h3>
+					<p class="project-card-desc">Project membuat web jual beli dengan HTML CSS</p>
+				</div>
+				<div class="project-card">
+					<img
+						src="./assets/project_3.png"
+						alt="project1"
+						class="project-card-img" />
+					<h3 class="project-card-title">Web koenigsegg</h3>
+					<p class="project-card-desc">Project membuat web berisi tentang mobil</p>
+				</div>
+			</div>
+		</section>
+		<!-- Contact -->
+		<section
+			id="contact"
+			class="contact">
+			<h2>Kontak <span>saya</span></h2>
+			<div class="row">
+				<form action="">
+					<div class="input-group">
+						<i data-feather="user"></i>
+						<input
+							type="text"
+							placeholder="nama" />
+					</div>
+					<div class="input-group">
+						<i data-feather="mail"></i>
+						<input
+							type="text"
+							placeholder="email" />
+					</div>
+					<div class="input-group">
+						<i data-feather="phone"></i>
+						<input
+							type="text"
+							placeholder="nomor" />
+					</div>
+					<button
+						type="submit"
+						class="btn">
+						Kirim pesan
+					</button>
+				</form>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer>
+			<div class="links">
+				<a href="#home">Home</a>
+				<a href="#about">Tentang saya</a>
+				<a href="#project">Projek</a>
+				<a href="#contact">Kontak</a>
+			</div>
+			<div class="credit">
+				<p>Created by <a href="">Ananda Rizki </a>. | &copy; 2023</p>
+			</div>
+		</footer>
+		<script src="./script.js"></script>
+		<script>
+			feather.replace()
+		</script>
+	</body>
+</html>
